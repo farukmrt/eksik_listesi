@@ -22,4 +22,24 @@ const categories = {
     'Unlu Mamüller',
     Color.fromARGB(255, 0, 60, 255),
   ),
+  Categories.sweets: Category(
+    'Atıştırmalıklar',
+    Color.fromARGB(255, 255, 149, 0),
+  ),
+  Categories.spices: Category(
+    'Baharat',
+    Color.fromARGB(255, 255, 187, 0),
+  ),
+  Categories.convenience: Category(
+    'WC',
+    Color.fromARGB(255, 191, 0, 255),
+  ),
+  Categories.hygiene: Category(
+    'Hijyen',
+    Color.fromARGB(255, 149, 0, 255),
+  ),
+  Categories.other: Category(
+    'Diğer',
+    Color.fromARGB(255, 0, 225, 255),
+  ),
 };
